@@ -119,16 +119,24 @@ span{
 }
 
 @media(max-width:1000px){
+ 
+    
     .cabecalho{
-     padding: 6%;   
+     padding: 6%; 
+     background-color: #272727;  
     }
     .cabecalho__menu{
         justify-content: center;
     }
     .apresentacao{
+        background-color: #1f2020;
         flex-direction: column-reverse;
         padding: 5% 8%;
         
+    }
+    .minha__foto{
+        width: 60%;
+    
     }
     .apresentacao__conteudo{
         width: auto;
@@ -141,6 +149,9 @@ span{
     }
     .apresentacao__conteudo__frase{
         font-size: 1rem;
+    }
+    .rodape{
+        font-size: 0,05rem;
     }
   
 }
